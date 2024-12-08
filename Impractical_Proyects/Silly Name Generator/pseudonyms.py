@@ -1,8 +1,9 @@
+"Funny Names"
 import sys
 import random
 
 def main():
-
+    """Funny Names"""
     print("Welcome to the Psych 'Sidekick Name Picker.'\n")
     print("A name just like Sean would pick for Gus:\n\n")
 
@@ -36,11 +37,11 @@ def main():
             'Woolysocks')
 
     while True:
-        firstName = random.choice(first)
-        lastName  = random.choice(last)
+        first_name = random.choice(first)
+        last_name  = random.choice(last)
 
         print("\n\n")
-        print("{} {}".format(firstName, lastName), file=sys.stderr)
+        print("{} {}".format(first_name, last_name), file=sys.stderr)
         print("\n\n")
 
         try_again = input("\n\nTry again? (Press Enter else n to quit)\n ")
