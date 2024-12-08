@@ -1,9 +1,9 @@
-"Funny Names"
+"""Funny Names."""
 import sys
 import random
 
 def main():
-    """Funny Names"""
+    """Funny Names."""
     print("Welcome to the Psych 'Sidekick Name Picker.'\n")
     print("A name just like Sean would pick for Gus:\n\n")
 
